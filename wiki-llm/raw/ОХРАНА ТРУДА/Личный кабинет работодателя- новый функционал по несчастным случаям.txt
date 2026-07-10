@@ -1,0 +1,423 @@
+URL: https://xn----8sbbilafpyxcf8a.xn--p1ai/oxrana-truda/%d0%bb%d0%ba%d0%be%d1%82-%d0%bd%d1%81.html
+Автор: Автор неизвестен
+Дата: Опубликовано 21.02.2024
+Заголовок: Личный кабинет работодателя: новый функционал по несчастным случаям
+
+Текст:
+Главная » Охрана труда
+                                Личный кабинет работодателя: новый функционал по несчастным случаям
+                    
+        
+    
+            
+                        
+            Опубликовано 21.02.2024
+            Обновлено 19.05.2025        
+    
+    В личном кабинете работодателя по охране труда (далее - ЛКОТ) на сайте Минтруда появилась функция уведомления о несчастном случае. 
+    
+        
+        
+
+        Приветствуем подписчиков PRO.
+
+
+
+В данной статье рассмотрим, как создать уведомление о НС, заполнить все обязательные формы и отправить его.
+
+
+
+Ранее мы уже делали предварительный обзор на Единый государственный учёт несчастных случаев на производстве — новая система Роструда. 
+
+
+
+На этой неделе появилась возможность увидеть функционал в личном кабинете работодателя. Рассмотрим подробно, как это работает.
+
+
+
+Содержание
+Создание записи о несчастном случаеРедактирование записи о несчастном случаеЗаполнение информации о несчастном случаеФормы документовОтправка заполненных документовСоздание записи о несчастном случае
+
+
+
+Находясь в личном кабинете работодателя, нужно нажать на вкладку «Контроль» и выбрать пункт меню «Несчастные случаи».
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-1.jpg","width":"1280","height":"676"}
+			
+				
+			
+		
+
+
+
+Далее нажать кнопку «Новый НС»
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-2.jpg","width":"1280","height":"318"}
+			
+				
+			
+		
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-3.jpg","width":"1280","height":"505"}
+			
+				
+			
+		
+
+
+
+Редактирование записи о несчастном случае
+
+
+
+Заполнив все поля и нажав кнопку «Создать запись», ей присваивается ID номер. После чего нужно нажать на редактирование записи.
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-4.png","width":"1422","height":"376"}
+			
+				
+			
+		
+
+
+
+В открывшемся окне «*» отмечены обязательные для заполнения поля:
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-5.png","width":"362","height":"806"}
+			
+				
+			
+		
+
+
+
+Заполнение информации о несчастном случае
+
+
+
+Рассмотрим каждую форму отдельно:
+
+
+
+1. Несчастный случай
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-6.png","width":"612","height":"441"}
+			
+				
+			
+		
+
+
+
+2. Организация
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-7.png","width":"616","height":"582"}
+			
+				
+			
+		
+
+
+
+3. Организация, направившая работника
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-8.png","width":"613","height":"671"}
+			
+				
+			
+		
+
+
+
+4. Пострадавший
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-9.png","width":"614","height":"857"}
+			
+				
+			
+		
+
+
+
+5. Председатель комиссии, проводившей расследование
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-10.png","width":"609","height":"306"}
+			
+				
+			
+		
+
+
+
+6. Принимавший участие в расследовании несчастного случая
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-11.png","width":"613","height":"306"}
+			
+				
+			
+		
+
+
+
+7. Очевидец несчастного случая, должностное лицо
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-12.png","width":"612","height":"787"}
+			
+				
+			
+		
+
+
+
+8. Характер и тяжесть повреждений здоровья
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-13.png","width":"608","height":"363"}
+			
+				
+			
+		
+
+
+
+9. Сведения о проведении СОУТ
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-14.png","width":"608","height":"393"}
+			
+				
+			
+		
+
+
+
+10. Стажировка
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-15.png","width":"619","height":"426"}
+			
+				
+			
+		
+
+
+
+11. Сведения о проведении инструктажей и обучении по охране труда
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-16.png","width":"613","height":"519"}
+			
+				
+			
+		
+
+
+
+12. Обстоятельства несчастного случая
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-17.png","width":"608","height":"593"}
+			
+				
+			
+		
+
+
+
+13. Нахождение пострадавшего в состоянии алкогольного или наркотического опьянения
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-18.png","width":"608","height":"291"}
+			
+				
+			
+		
+
+
+
+14. Лицо, допустившее нарушение требований охраны труда
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-19.png","width":"609","height":"523"}
+			
+				
+			
+		
+
+
+
+15. Извещение о несчастном случае
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-20.png","width":"608","height":"469"}
+			
+				
+			
+		
+
+
+
+16. Заключение государственного инспектора труда
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-21.png","width":"611","height":"343"}
+			
+				
+			
+		
+
+
+
+17. Протокол опроса пострадавшего, очевидца или должностного лица
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-22.png","width":"608","height":"906"}
+			
+				
+			
+		
+
+
+
+18. Последствия несчастного случая
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-23.png","width":"609","height":"776"}
+			
+				
+			
+		
+
+
+
+19. Последствия, касающиеся пострадавшего
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-24.png","width":"609","height":"781"}
+			
+				
+			
+		
+
+
+
+20. Мероприятия по устранению причин несчастного случая
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-25.png","width":"609","height":"356"}
+			
+				
+			
+		
+
+
+
+21. Краткая характеристика места, где произошёл несчастный случай
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-26.jpg","width":"604","height":"1277"}
+			
+				
+			
+		
+
+
+
+Формы документов
+
+
+
+В разделе «Редактирование» можно скачать все формы документов
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-formy.png","width":"461","height":"609"}
+			
+				
+			
+		
+
+
+
+
+Скачать формы документов
+
+
+
+
+
+Внимание! Часть форм скачиваются пустыми, мы не стали их загружать.
+
+
+
+
+Далее нажать кнопку «Завершить редактирование». 
+
+
+
+Отправка заполненных документов 
+
+
+
+Вернувшись к заявке, остаётся загрузить скан-копии заполненных документов и отправить.
+
+
+
+{"@context":"https://schema.org","@type":"ImageObject","url":"https://xn----8sbbilafpyxcf8a.xn--p1ai/wp-content/uploads/2024/02/LKOT-ns-27.png","width":"1461","height":"746"}
+			
+				
+			
+		
+
+
+
+
+Напоминаем, что на сегодняшний день у работодателя ещё нет обязанности вносить эти данные через Личный кабинет.
+
+
+
+
+
+СКАЧАТЬ ИНСТРУКЦИЮ
+
+
+
+
+Продолжение следует…

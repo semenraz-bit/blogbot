@@ -1,0 +1,18 @@
+# Environment files
+*.env
+.env
+ollama.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+env/
