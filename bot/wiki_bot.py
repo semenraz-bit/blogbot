@@ -44,13 +44,29 @@ openai_client = OpenAI(
 WIKI_PATH = Path(__file__).parent.parent / "wiki-llm"
 RAW_PATH = WIKI_PATH / "raw"
 
+def stem_russian_word(word: str) -> str:
+    # Simple stemmer for Russian language to handle case endings/declensions
+    if len(word) <= 3:
+        return word
+    # Remove common Russian endings
+    cleaned = re.sub(
+        r'(ова|ову|овой|ами|ями|иям|иях|иями|ого|ему|ому|его|ыми|ов|а|у|ы|е|и|о|й|ом|ой|ях|ям|ть|ти|ур|ух)$', 
+        '', 
+        word
+    )
+    # If the word became too short, return the original
+    return cleaned if len(cleaned) >= 3 else word
+
 class WikiSearcher:
     def __init__(self, raw_path: Path):
         self.raw_path = raw_path
         
     def search(self, query: str, top_k=3):
-        words = [w.lower() for w in re.findall(r'\w+', query) if len(w) > 2]
-        if not words:
+        # Extract and stem keywords
+        words = [w.lower() for w in re.findall(r'[a-zA-Zа-яА-Я0-9]+', query)]
+        stemmed_words = [stem_russian_word(w) for w in words if len(w) > 2]
+        
+        if not stemmed_words:
             return []
             
         results = []
@@ -69,8 +85,9 @@ class WikiSearcher:
                     score = 0
                     content_lower = content.lower()
                     
-                    for word in words:
-                        score += content_lower.count(word)
+                    # Count matches using stemmed words
+                    for stem in stemmed_words:
+                        score += content_lower.count(stem)
                         
                     if score > 0:
                         lines = content.splitlines()
