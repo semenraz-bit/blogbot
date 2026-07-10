@@ -105,6 +105,33 @@ class WikiSearcher:
 
 searcher = WikiSearcher(RAW_PATH)
 
+def clean_telegram_html(text: str) -> str:
+    # Convert HTML lists which Telegram doesn't support to plain text lists
+    text = text.replace("<ul>", "").replace("</ul>", "")
+    text = text.replace("<ol>", "").replace("</ol>", "")
+    text = text.replace("<li>", "• ").replace("</li>", "\n")
+    
+    # Strip any other unsupported HTML tags if LLM accidentally outputs them
+    # Keep only: <b>, <i>, <code>, <a>, <pre>, <u>, <s>, tg-spoiler
+    allowed_tags = ["b", "i", "code", "a", "pre", "u", "s", "tg-spoiler"]
+    
+    # Remove tag attributes except for 'href' inside 'a'
+    def sanitize_tag(match):
+        tag_content = match.group(1)
+        tag_name = tag_content.split()[0].lower()
+        if tag_name not in allowed_tags:
+            return ""
+        if tag_name == "a" and "href=" in tag_content:
+            href_match = re.search(r'href=["\'](https?://[^"\']+)["\']', tag_content)
+            if href_match:
+                return f'<a href="{href_match.group(1)}">'
+        if tag_content.startswith("/"):
+            return f'</{tag_name}>'
+        return f'<{tag_name}>'
+        
+    text = re.sub(r'<([^>]+)>', sanitize_tag, text)
+    return text
+
 def ask_llm(query: str, context: str):
     if not openai_client:
         return "Ошибка: Не настроен доступ к LLM (отсутствует OLLAMA_API_KEY)."
@@ -116,7 +143,8 @@ def ask_llm(query: str, context: str):
         "Если в контексте нет информации по вопросу, честно ответьте, что информации в базе данных нет, "
         "но постарайтесь дать общий совет эксперта.\n"
         "В конце вашего ответа ОБЯЗАТЕЛЬНО приведите ссылки на использованные статьи в блоке 'Источники:'.\n"
-        "Используйте HTML-теги для форматирования в Telegram (<b>жирный</b>, <i>курсив</i>, <code>код</code>, <a href='ссылка'>анкор</a>).\n\n"
+        "Используйте HTML-теги для форматирования в Telegram (<b>жирный</b>, <i>курсив</i>, <code>код</code>, <a href='ссылка'>анкор</a>).\n"
+        "КРИТИЧЕСКИ ВАЖНО: Не используйте HTML-теги списков (<ul>, <ol>, <li>). Для списков пишите дефисы (-) или маркеры (•) текстом.\n\n"
         f"Контекст:\n{context}"
     )
     
@@ -129,7 +157,8 @@ def ask_llm(query: str, context: str):
             ],
             temperature=0.3
         )
-        return response.choices[0].message.content
+        raw_content = response.choices[0].message.content
+        return clean_telegram_html(raw_content)
     except Exception as e:
         return f"Ошибка при обращении к ИИ: {e}"
 
