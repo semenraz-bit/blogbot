@@ -112,21 +112,26 @@ def clean_telegram_html(text: str) -> str:
     text = text.replace("<li>", "• ").replace("</li>", "\n")
     
     # Strip any other unsupported HTML tags if LLM accidentally outputs them
-    # Keep only: <b>, <i>, <code>, <a>, <pre>, <u>, <s>, tg-spoiler
     allowed_tags = ["b", "i", "code", "a", "pre", "u", "s", "tg-spoiler"]
     
     # Remove tag attributes except for 'href' inside 'a'
     def sanitize_tag(match):
-        tag_content = match.group(1)
-        tag_name = tag_content.split()[0].lower()
+        tag_content = match.group(1).strip()
+        is_closing = tag_content.startswith("/")
+        tag_name = tag_content.lstrip("/").split()[0].lower()
+        
         if tag_name not in allowed_tags:
             return ""
+            
+        if is_closing:
+            return f'</{tag_name}>'
+            
         if tag_name == "a" and "href=" in tag_content:
             href_match = re.search(r'href=["\'](https?://[^"\']+)["\']', tag_content)
             if href_match:
                 return f'<a href="{href_match.group(1)}">'
-        if tag_content.startswith("/"):
-            return f'</{tag_name}>'
+            return ""
+            
         return f'<{tag_name}>'
         
     text = re.sub(r'<([^>]+)>', sanitize_tag, text)
